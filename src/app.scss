@@ -1,0 +1,62 @@
+#root {
+  
+  // background-color: #FFC4C4;
+  background-color: #9ADCFF;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+
+  .container {
+    #head  {
+      // background-color: #A10035;
+    }
+    .panel-warning {
+      border: 1px solid black ;
+      // border-color: pink;
+    }
+  
+    .panel-heading {
+      background-color: #FF869E;
+      text-align: center;
+      padding: 10px;
+  
+      .panel-title {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+    }
+  
+    form {
+      margin: 20px;
+    }
+  
+    #add {
+      margin: 10px 0;
+    }
+  
+    .form-control {
+    }
+  
+    button,
+    span {
+      cursor: pointer;
+    }
+  
+    table {
+      background-color: #f1a4b4;
+      margin-top: 10px;
+      th {
+        background-color: #ef6e88;
+        border: solid black;
+      }
+
+      td {
+        border: solid black;
+      }
+    }
+  }
+
+}
+
+

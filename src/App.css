@@ -1,38 +1,40 @@
-.App {
+#root {
+  background-color: #9ADCFF;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+#root .container .panel-warning {
+  border: 1px solid black;
+}
+#root .container .panel-heading {
+  background-color: #FF869E;
   text-align: center;
+  padding: 10px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#root .container .panel-heading .panel-title {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+#root .container form {
+  margin: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#root .container #add {
+  margin: 10px 0;
 }
+#root .container button,
+#root .container span {
+  cursor: pointer;
+}
+#root .container table {
+  background-color: #f1a4b4;
+  margin-top: 10px;
+}
+#root .container table th {
+  background-color: #ef6e88;
+  border: solid black;
+}
+#root .container table td {
+  border: solid black;
+}/*# sourceMappingURL=app.css.map */
